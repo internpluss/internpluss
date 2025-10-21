@@ -51,7 +51,7 @@ const Navbar = () => {
               <div className={`h-full flex flex-row gap-3 text-center items-center text-base font-medium`}>
 
                 <div id="internship-btnContainer" className='w-full h-full flex items-center justify-center'>
-                  <Link id='internship-btn' href="/internships" className='bg-white h-full w-auto flex items-center justify-center cursor-default'>
+                  <Link id='internship-btn' href="/#internships" className='bg-white h-full w-auto flex items-center justify-center cursor-default'>
                     <span id='btn-imain' className='py-1 px-3 text-[#000] rounded transition-all'>Services</span>
                   </Link>
 
@@ -63,7 +63,7 @@ const Navbar = () => {
 
                         <div className='px-5 text-lg font-semibold'>Internships & College Search</div>
 
-                        <Link href="/internships" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
+                        <Link href="/#internships" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Internships</div>
@@ -71,7 +71,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="/featured/internships" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
+                        <Link href="#featured-internships" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Featured Internships</div>
@@ -79,7 +79,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="/college" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
+                        <Link href="/#college-search" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>College</div>
@@ -87,7 +87,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="/college/top-engineering-colleges" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
+                        <Link href="/#top-categories" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Top Categories</div>
@@ -101,7 +101,7 @@ const Navbar = () => {
 
                         <div className='px-5 text-lg font-semibold'>Careers Page</div>
 
-                        <Link href="https://careers.internpluss.com" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
+                        <Link href="/#careers-page" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Carrers Page</div>
@@ -109,7 +109,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="https://careers.internpluss.com/features" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
+                        <Link href="/#careers-features" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Careers Page Features</div>
@@ -117,7 +117,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="https://careers.internpluss.com/integration" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
+                        <Link href="/#careers-integration" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Integration</div>
@@ -125,7 +125,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="https://careers.internpluss.com/join-us" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
+                        <Link href="/#careers-join" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Join Us</div>
@@ -139,7 +139,7 @@ const Navbar = () => {
 
                         <div className='px-5 text-lg font-semibold'>TnP Portal</div>
 
-                        <Link href="https://tnp.internpluss.com/" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
+                        <Link href="/#tnp-about" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>About TnP Portal</div>
@@ -147,7 +147,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="https://tnp.internpluss.com/features" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
+                        <Link href="/#tnp-features" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Explore TnP Features</div>
@@ -155,7 +155,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="https://tnp.internpluss.com/integration" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
+                        <Link href="/#tnp-integration" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Integration</div>
@@ -163,7 +163,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="https://tnp.internpluss.com/contact" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
+                        <Link href="/#tnp-signup" className='w-full flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Join Us</div>
@@ -180,7 +180,7 @@ const Navbar = () => {
 
                 <div id="company-btnContainer" className='w-full h-full flex items-center justify-center'>
 
-                  <Link href='/company' id='company-btn' className='bg-white h-full w-auto flex items-center justify-center cursor-default'>
+                  <Link href='/#about-us' id='company-btn' className='bg-white h-full w-auto flex items-center justify-center cursor-default'>
                     <span id='btn-cmain' className='py-1 px-3 text-[#000] rounded transition-all'>
                       Company
                     </span>
@@ -194,7 +194,7 @@ const Navbar = () => {
 
                         <div className='px-5 text-lg font-semibold'>Company</div>
 
-                        <Link href="/company" className='w-96 flex flex-row gap-3 transition-all hover:bg-[#eaecee] py-2 px-3 rounded-md'>
+                        <Link href="/#about-us" className='w-96 flex flex-row gap-3 transition-all hover:bg-[#eaecee] py-2 px-3 rounded-md'>
                           <Image src="/navbar/about-us.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>About Us</div>
@@ -202,7 +202,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="/careers" className='w-96 flex flex-row gap-3 transition-all hover:bg-[#eaecee] py-2 px-3 rounded-md'>
+                        <Link href="/#careers" className='w-96 flex flex-row gap-3 transition-all hover:bg-[#eaecee] py-2 px-3 rounded-md'>
                           <Image src="/navbar/careers.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Careers</div>
@@ -210,7 +210,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="/open-positions" className='w-96 flex flex-row gap-3 transition-all hover:bg-[#eaecee] py-2 px-3 rounded-md'>
+                        <Link href="/#open-positions" className='w-96 flex flex-row gap-3 transition-all hover:bg-[#eaecee] py-2 px-3 rounded-md'>
                           <Image src="/navbar/hiring.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Open Positions</div>
@@ -224,7 +224,7 @@ const Navbar = () => {
 
                         <div className='px-5 text-lg font-semibold'>Resources</div>
 
-                        <Link href="/our-programs" className='w-96 flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded-md'>
+                        <Link href="/#programs" className='w-96 flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded-md'>
                           <Image src="/navbar/program.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Our Programs</div>
@@ -232,7 +232,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="/contact" className='w-96 flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded-md'>
+                        <Link href="/#contact" className='w-96 flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded-md'>
                           <Image src="/navbar/contact.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>Contact</div>
@@ -240,7 +240,7 @@ const Navbar = () => {
                           </div>
                         </Link>
 
-                        <Link href="/faqs" className='w-96 flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded-md'>
+                        <Link href="/#faqs" className='w-96 flex flex-row gap-3 transition-all hover:bg-[#eaecee] p-2 px-3 rounded-md'>
                           <Image src="/navbar/faqs.svg" alt="logo" width={48} height={48} className=' w-12 h-12' priority={true} />
                           <div className='flex flex-col items-start justify-center'>
                             <div>FAQs</div>
