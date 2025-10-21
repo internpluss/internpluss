@@ -4,6 +4,7 @@ import React from 'react';
 import Head from 'next/head';
 import Navbar from '@/components/common/Navbar';
 import Footer from '@/components/common/Footer';
+import ProductGuide from '@/components/ProductGuide/ProductGuide';
 
 const Index = () => {
     return (
@@ -27,8 +28,9 @@ const Index = () => {
                 <meta name="twitter:image" content="/og/twitter-og.png" />
             </Head>
 
-
             <Navbar />
+
+            <ProductGuide />
 
             <Footer />
 
