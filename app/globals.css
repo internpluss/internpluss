@@ -117,28 +117,9 @@
 body {
   font-family: "Inter", sans-serif;
 }
-
 #internship-btnContainer {
   #btn-imain:hover {
     background-color: #eaecee;
-  }
-
-  #internship-content {
-    display: none;
-
-    &:hover {
-      display: block;
-    }
-  }
-
-  &:hover {
-    #internship-content {
-      display: flex;
-    }
-
-    #btn-imain {
-      background-color: #eaecee;
-    }
   }
 }
 
@@ -146,22 +127,10 @@ body {
   #btn-cmain:hover {
     background-color: #eaecee;
   }
+}
 
-  #company-content {
-    display: none;
-
-    &:hover {
-      display: block;
-    }
-  }
-
-  &:hover {
-    #company-content {
-      display: flex;
-    }
-
-    #btn-cmain {
-      background-color: #eaecee;
-    }
+#pages-btn {
+  #btn-pmain:hover {
+    background-color: #eaecee;
   }
 }
