@@ -38,8 +38,8 @@ const ProductGuide: React.FC<ProductGuideProps> = ({
     const currentSection = sections.find(s => s.id === activeSection) || sections[0];
 
     return (
-        <div className="w-full flex items-start mt-6 justify-center min-h-screen bg-white">
-            <div className="w-10/12 max-w-7xl flex flex-col lg:flex-row items-start justify-center gap-4 py-12">
+        <div className="w-full flex items-start mt-8 justify-center min-h-screen bg-white">
+            <div className="w-11/12 flex flex-col lg:flex-row items-start justify-center gap-4 py-12">
 
                 <aside className="lg:w-72 w-full">
                     <div className="sticky top-24 space-y-4">
@@ -96,7 +96,7 @@ const ProductGuide: React.FC<ProductGuideProps> = ({
                         </div>
 
                         <div className="space-y-6">
-                            
+
                             {activeSection === 'getting-started' && (
                                 <div className="mt-12 pt-8 border-t border-gray-200">
                                     <h3 className="text-3xl font-bold text-gray-900 mb-6">
