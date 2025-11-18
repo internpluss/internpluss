@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BackpackIcon, DesktopIcon, RocketIcon } from '@radix-ui/react-icons';
 import { Building } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 
 interface Section {
     id: string;
@@ -26,10 +27,10 @@ interface ProductGuideProps {
     onCategoryClick: (categoryId: string) => void;
 }
 
-const ProductGuide: React.FC<ProductGuideProps> = ({ 
-    sections, 
-    categories, 
-    activeSection, 
+const ProductGuide: React.FC<ProductGuideProps> = ({
+    sections,
+    categories,
+    activeSection,
     expandedCategories,
     onSectionClick,
     onCategoryClick
@@ -83,22 +84,19 @@ const ProductGuide: React.FC<ProductGuideProps> = ({
 
                 <main className="flex-1">
                     <div className="bg-white rounded-xl border border-gray-200 p-6 lg:p-8">
+
+                        <div className='flex items-center justify-center bg-white w-full mb-6'>
+                            <div className='w-full md:h-48 h-auto relative bg-[#1ab69d] flex flex-col items-start justify-between rounded-2xl overflow-hidden shadow-md'>
+                                <div className='flex flex-col justify-center md:gap-2 gap-3 md:py-5 py-8 px-6'>
+                                    <div className='text-white md:text-2xl text-2xl font-bold capitalize'>{currentSection.heading}</div>
+                                    <div className='text-[#fff] md:text-base text-base font-normal w-10/12'>{currentSection.content}</div>
+                                </div>
+                                <Image src={'/header/banner.svg'} alt='internship banner' width={206} height={208} className=' absolute w-52 h-auto -bottom-8 -right-6' priority={true} />
+                            </div>
+                        </div>
+
                         <div className="space-y-6">
-                            <div>
-                                <h1 className="text-2xl lg:text-4xl font-bold text-gray-900 mb-3">
-                                    {currentSection.heading}
-                                </h1>
-                                <p className="text-lg text-gray-600 font-medium">
-                                    {currentSection.description}
-                                </p>
-                            </div>
-
-                            <div className="prose max-w-none">
-                                <p className="text-base text-gray-700 leading-relaxed">
-                                    {currentSection.content}
-                                </p>
-                            </div>
-
+                            
                             {activeSection === 'getting-started' && (
                                 <div className="mt-12 pt-8 border-t border-gray-200">
                                     <h3 className="text-3xl font-bold text-gray-900 mb-6">
