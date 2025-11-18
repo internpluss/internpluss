@@ -31,7 +31,7 @@ const Footer = () => {
                             <div className='text-[#4c4c4c]'>
                                 <div className='text-[18px] font-medium mb-4'>
                                     Chat with us<br />
-                                    <span className='text-[#1ab69d] text-xl font-medium'>+91 94706-56588</span>
+                                    <span className='text-[#1ab69d] text-xl font-medium'>+91 70048-17946</span>
                                 </div>
                                 <div className='text-[14px] font-medium leading-6'>
                                     Startupmed Marketing Pvt. Ltd.<br />
@@ -43,20 +43,20 @@ const Footer = () => {
                         </div>
 
                         <div className='flex flex-col gap-2 items-start justify-center w-auto text-[14px] text-[#4c4c4c] mt-4'>
-                            <p className='mb-2 text-[#000] text-[1rem] font-semibold'>For Candidates</p>
+                            <p className='mb-2 text-[#000] text-[1rem] font-semibold'>For Colleges</p>
                             <a href='/internships' className='font-medium min-w-32 h-6'>Browse Internships</a>
                             <a href='/' className='font-medium min-w-32 h-6'>Browse Category</a>
-                            <a href='/internships' className='font-medium min-w-32 h-6'>Candidate Dashboard</a>
-                            <a href='/internships' className='font-medium min-w-32 h-6'>Internship Alert</a>
-                            <a href='/internships' className='font-medium min-w-32 h-6'>My Bookmarks</a>
+                            <a href='/internships' className='font-medium min-w-32 h-6'>College Dashboard</a>
+                            <a href='/internships' className='font-medium min-w-32 h-6'>T&P Portal</a>
+                            <a href='/internships' className='font-medium min-w-32 h-6'>Submit Enquiry</a>
                         </div>
 
                         <div className='flex flex-col gap-2 items-start justify-center w-auto text-[14px] text-[#4c4c4c] mt-4'>
                             <p className='mb-2 text-[#000] text-[1rem] font-semibold'>For Employers</p>
-                            <a href='/internships' className='font-medium min-w-32 h-6'>Browse Companies</a>
-                            <a href='/internships' className='font-medium min-w-32 h-6'>Employers Dashboard</a>
-                            <a href='/internships' className='font-medium min-w-32 h-6'>Submit Internships</a>
-                            <a href='/internships' className='font-medium min-w-32 h-6'>Internship Packages</a>
+                            <a href='/internships' className='font-medium min-w-32 h-6'>Career Page</a>
+                            <a href='/internships' className='font-medium min-w-32 h-6'>Career Features</a>
+                            <a href='/internships' className='font-medium min-w-32 h-6'>Explore Candidates</a>
+                            <a href='/internships' className='font-medium min-w-32 h-6'>Submit Enqiry</a>
                             <a href='/contact' className='font-medium min-w-32 h-6'>Report Problem</a>
                         </div>
 
@@ -82,7 +82,7 @@ const Footer = () => {
 
                     <div className='w-full h-auto flex lg:flex-row flex-col pb-8'>
                         <div className='flex flex-row items-center md:justify-start justify-center w-full text-[14px] text-[#4c4c4c]'>
-                            © 2025 Internpluss. All Right Reserved.
+                            © 2026 Internpluss. All Right Reserved.
                         </div>
 
                         <div className='flex flex-row items-center justify-center gap-2 mt-2 text-[14px] text-[#4c4c4c]'>
@@ -92,7 +92,7 @@ const Footer = () => {
                             <Link href='https://www.linkedin.com/company/internplus/'>
                                 <LinkedInLogoIcon className='w-4 h-4' />
                             </Link>
-                            <Link href='https://www.instagram.com/internpluss?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='>
+                            <Link href='https://www.instagram.com/internpluss'>
                                 <InstagramLogoIcon className='w-4 h-4' />
                             </Link>
                             <TwitterLogoIcon className='w-4 h-4' />
